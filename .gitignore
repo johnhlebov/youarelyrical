@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+venv/
+whisperx_lyrics/
+
+# Audio files
+input/*.wav
+output/*.wav
+
+# System
+.DS_Store
+Thumbs.db
