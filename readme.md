@@ -56,7 +56,7 @@ youarelyrical/
 ├── README.md
 
 
-##⚡ Quickstart
+⚡ Quickstart
 
 # Setup Python environment
 python -m venv venv
