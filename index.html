@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YouAreLyrical - Lyric Aligner</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f8fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff6600;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    main {
+      padding: 30px;
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      margin-top: 40px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+    input[type="file"], button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+    }
+    button {
+      background-color: #ff6600;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #e55d00;
+    }
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  🎵 YouAreLyrical
+</header>
+
+<main>
+
+  <div class="section">
+    <label for="audio">Upload your song (.wav):</label>
+    <input type="file" id="audio" accept=".wav">
+  </div>
+
+  <div class="section">
+    <label for="lyrics">Upload your lyrics (.txt):</label>
+    <input type="file" id="lyrics" accept=".txt">
+  </div>
+
+  <button onclick="runAlignment()">Align Lyrics</button>
+
+  <div class="section" id="downloadSection" style="display:none;">
+    <label>Download your files:</label>
+    <button>Download Word-by-Word SRT</button>
+    <button>Download Line-by-Line SRT</button>
+    <button>Download Corrected JSON</button>
+  </div>
+
+</main>
+
+<footer>
+  Built with 💻 and 🎵 by Orange Music
+</footer>
+
+<script>
+function runAlignment() {
+  alert("Pretend we are aligning! (Backend not wired yet)");
+  document.getElementById('downloadSection').style.display = 'block';
+}
+</script>
+
+</body>
+</html>
