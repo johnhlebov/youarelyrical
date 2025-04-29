@@ -56,7 +56,7 @@ youarelyrical/
 ├── README.md
 
 
-⚡ Quickstart
+##⚡ Quickstart
 
 # Setup Python environment
 python -m venv venv
@@ -85,20 +85,14 @@ pip install torch soundfile
 
 📢 Important Notes
 .wav input must be high quality and properly normalized for best results.
-
 Ensure lyrics.txt matches what is actually sung (small differences will still be corrected, but big gaps cause trouble).
-
 No stretch applied — lyrics timing reflects actual model output.
-
 For clean videos, word-by-word and line-by-line files are generated separately.
 
 🚀 Future Upgrades
 Web UI for uploading songs and auto-generating lyric videos
-
 After Effects export JSON for direct text layer creation
-
 Advanced fuzzy matching and manual correction interface
-
 Multilingual support (English/Ukrainian)
 
 Made with 💻 and 🎵 by [Johny Hlebov @ Orange Music Production 🍊]
